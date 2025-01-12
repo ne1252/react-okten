@@ -9,7 +9,7 @@ interface SimsonComponentProps {
 
 export const SimsonComponent = ({item,children}: SimsonComponentProps) => {
     return (
-        <div className='my-73'>
+        <div className='my-3'>
             <h2>{item.name}{item.surname}</h2>
             <p>{children}</p>
         </div>
